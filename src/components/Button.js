@@ -29,3 +29,5 @@ export const Button = ({children,
         </Link>
     )
 }
+
+export default Button

@@ -156,3 +156,6 @@
       transition: 250ms;
     }
   }
+  .nav-name {
+    margin-right: 10px;
+  }

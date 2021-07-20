@@ -66,13 +66,13 @@ function Footer() {
                     
                     <div className='social-icons'>
                          
-                        <Link className='social-icon-link github' to='/' target='_blank' aria-label='gitHub'>
+                        <a href="https://github.com/garyliggins" className='social-icon-link github'  target='_blank' aria-label='gitHub'>
                         <i class="fab fa-github"></i>
-                        </Link>
+                        </a>
                         <small className='website-rights'>Gary Liggins © 2021</small>
-                        <Link className='social-icon-link linkedin' to='/' target='_blank' aria-label='LinkedIn'>
+                        <a href="https://www.linkedin.com/in/garyliggins/" className='social-icon-link linkedin' to='/' target='_blank' aria-label='LinkedIn'>
                             <i className='fab fa-linkedin'></i>
-                        </Link>
+                        </a>
                     
                 </div>
                 </div>

@@ -38,14 +38,14 @@ const NavBar = () => {
                        </div>
                        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                            <li className='nav-item'>
-                               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                               <a href="https://www.linkedin.com/in/garyliggins/" className='nav-links' onClick={closeMobileMenu}>
                                    LinkedIn
-                               </Link>
+                               </a>
                            </li>
                            <li className='nav-item'>
-                               <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
+                               <a href="https://github.com/garyliggins" className='nav-links' onClick={closeMobileMenu}>
                                    GitHub
-                               </Link>
+                               </a>
                            </li>
                            {/* <li className='nav-item'>
                                <Link to='/products' className='nav-links' onClick={closeMobileMenu}>

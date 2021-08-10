@@ -10,30 +10,47 @@ function Cards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem 
-                        src='/images/img-9.jpg'
-                        text='Explore the hidden water fall'
+                        src='images/supremeteam_site_cover.png'
+                        text='Supreme Team Los Angeles site made with Vanilla JavaScript and Bootsrap'
                         // label='Adventure'
                         path='/services'/>
                           <CardItem 
-                        src='/images/img-2.jpg'
-                        text='travel through the islands of bali'
+                        src='images/photo_gallery_cover.png'
+                        text='Photo Gallery made with React, Firebase and Framer Motion'
                         // label='Luxury'
                         path='/services'/>
-                    </ul>
-                    <ul className='cards__items'>
                         <CardItem 
-                        src='/images/img-3.jpg'
-                        text='Set sail in the atlantic ocean'
+                        src='images/portfolio_cover.png'
+                        text='Sample of a portfolio site with animations made with React'
                         // label='Mystery'
                         path='/services'/>
-                          <CardItem 
-                        src='/images/img-4.jpg'
-                        text='Experience the top of the Himilayan Mountains'
+                           <CardItem 
+                        src='images/currency_exchange_cover.png'
+                        text='Currency Exchange calculator using vanilla Javascript and a currency exchange API'
                         // label='Adventure'
                         path='/products'/>
+                    </ul>
+                    <ul className='cards__items'>
+                        
+                       
                           <CardItem 
-                        src='/images/img-8.jpg'
-                        text='Ride through the Sahara Desert'
+                        src='images/hangman_cover.png'
+                        text='Hangman Game using Vanilla Javascript'
+                        // label='Adrenaline'
+                        path='/sign-up'/>
+                          <CardItem 
+                        src='images/guess_the_number_cover.png'
+                        text='Number guessing game using Vanilla Javascript'
+                        // label='Adrenaline'
+                        path='/sign-up'/>
+                          <CardItem 
+                        src='images/superstore_tableau_cover.png'
+                        text='Analysis on a superstore using Excel and Tableau'
+                        // label='Adrenaline'
+                        path='/sign-up'/>
+                          <CardItem 
+                        src='images/restaurant_analysis_cover.png'
+                        text='Analysis on the potential profit and expense of opening a restaurant over five years'
                         // label='Adrenaline'
                         path='/sign-up'/>
                     </ul>

@@ -7,7 +7,7 @@ import '../App.css';
 const HeroSection = () => {
     return (
         <div className='hero-container'>
-            <video src='/videos/video-2.mp4' autoPlay loop muted />
+            <video src='/videos/video-2.mp4' autoPlay loop muted playsinline id="video-background" />
             <h1> Gary Liggins</h1>
             <p>Software Engineer & Data Analyst</p>
             {/* <div className="hero-btns">

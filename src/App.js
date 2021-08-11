@@ -14,35 +14,35 @@ function App() {
       <Switch>
         <Route path='/' exact  component={Home}/>
         <Route path='/supremeTeamLa' component={() => {
-          window.location.href = "https://www.supremeteamla.com/";
+          window.location.replace("https://www.supremeteamla.com/");
           return null;
         }}/>
          <Route path='/photoGallery' component={() => {
-          window.location.href = "https://friendly-hoover-261561.netlify.app";
+          window.location.replace("https://friendly-hoover-261561.netlify.app");
           return null;
         }}/>
         <Route path='/brochure' component={() => {
-          window.location.href = "https://elastic-shannon-817b34.netlify.app";
+          window.location.replace("https://elastic-shannon-817b34.netlify.app");
           return null;
         }}/>
          <Route path='/currencyExchange' component={() => {
-          window.location.href = "https://garyliggins.github.io/currency-exchange-calculator/";
+          window.location.replace("https://garyliggins.github.io/currency-exchange-calculator/");
           return null;
         }}/>
          <Route path='/hangman' component={() => {
-          window.location.href = "https://gifted-brahmagupta-c4c66e.netlify.app";
+          window.location.replace("https://gifted-brahmagupta-c4c66e.netlify.app");
           return null;
         }}/>
         <Route path='/numberGuessingGame' component={() => {
-          window.location.href = "https://garyliggins.github.io/number-guessing-game/";
+          window.location.replace("https://garyliggins.github.io/number-guessing-game/");
           return null;
         }}/>
          <Route path='/superStore' component={() => {
-          window.location.href = "https://github.com/garyliggins/superstore_tableau";
+          window.location.replace("https://github.com/garyliggins/superstore_tableau");
           return null;
         }}/>
           <Route path='/restaurantAnalysis' component={() => {
-          window.location.href = "https://github.com/garyliggins/restaurant_profit_analysis";
+          window.location.replace("https://github.com/garyliggins/restaurant_profit_analysis");
           return null;
         }}/>
       </Switch>

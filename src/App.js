@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css';
 import NavBar from './components/NavBar';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route, External} from 'react-router-dom'
 import Home from './components/pages/Home'
-import Services from './components/pages/Services'
-import Products from './components/pages/Products'
-import SignUp from './components/pages/SignUp'
+
+
+
 function App() {
   return (
     <>
@@ -13,9 +13,38 @@ function App() {
       <NavBar/>
       <Switch>
         <Route path='/' exact  component={Home}/>
-        <Route path='/services' component={Services}/>
-        <Route path='/products' component={Products}/>
-        <Route path='/sign-up' component={SignUp}/>
+        <Route path='/supremeTeamLa' component={() => {
+          window.location.href = "https://www.supremeteamla.com/";
+          return null;
+        }}/>
+         <Route path='/photoGallery' component={() => {
+          window.location.href = "https://friendly-hoover-261561.netlify.app";
+          return null;
+        }}/>
+        <Route path='/brochure' component={() => {
+          window.location.href = "https://elastic-shannon-817b34.netlify.app";
+          return null;
+        }}/>
+         <Route path='/currencyExchange' component={() => {
+          window.location.href = "https://garyliggins.github.io/currency-exchange-calculator/";
+          return null;
+        }}/>
+         <Route path='/hangman' component={() => {
+          window.location.href = "https://gifted-brahmagupta-c4c66e.netlify.app";
+          return null;
+        }}/>
+        <Route path='/numberGuessingGame' component={() => {
+          window.location.href = "https://garyliggins.github.io/number-guessing-game/";
+          return null;
+        }}/>
+         <Route path='/superStore' component={() => {
+          window.location.href = "https://github.com/garyliggins/superstore_tableau";
+          return null;
+        }}/>
+          <Route path='/restaurantAnalysis' component={() => {
+          window.location.href = "https://github.com/garyliggins/restaurant_profit_analysis";
+          return null;
+        }}/>
       </Switch>
     </Router>
      

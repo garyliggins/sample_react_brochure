@@ -10,16 +10,16 @@ function Cards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem 
-                        src='images/supremeteam_site_cover.png'
-                        text='Supreme Team Los Angeles site made with Vanilla JavaScript and Bootsrap and widgets from Ticket Master and Mail Chimp'
+                        src='images/lafunctionCover.png'
+                        text='Dynamic and responsive website using React.js to showcase an upcoming event. The website was designed with a user-friendly interface and sleek layout using Tailwind CSS for the styling. The website also features external and internal routing, allowing visitors to easily navigate and explore the different sections of the event.'
                         // label='Adventure'
-                        path='/supremeTeamLa'
+                        path='/eventSite'
                          />
                           <CardItem 
-                        src='images/photo_gallery_cover.png'
-                        text='Photo Gallery made with React, Firebase and Framer Motion'
+                        src='images/adAgencyCover.png'
+                        text="Visually stunning website for an ad agency using Vanilla JavaScript, Gulp and Bootstrap for the CSS. It showcases my ability to create responsive designs and engaging user experiences, which are essential for effective website development."
                         // label='Luxury'
-                        path='/photoGallery'/>
+                        path='/adAgency'/>
                         <CardItem 
                         src='images/portfolio_cover.png'
                         text='Sample of a brochure site with animations made with React'

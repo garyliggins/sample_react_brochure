@@ -13,12 +13,12 @@ function App() {
       <NavBar/>
       <Switch>
         <Route path='/' exact  component={Home}/>
-        <Route path='/supremeTeamLa' component={() => {
-          window.location.replace("https://www.supremeteamla.com/");
+        <Route path='/eventSite' component={() => {
+          window.location.replace("https://www.lafunction.com/");
           return null;
         }}/>
-         <Route path='/photoGallery' component={() => {
-          window.location.replace("https://friendly-hoover-261561.netlify.app");
+         <Route path='/adAgency' component={() => {
+          window.location.replace("http://ligginsdevelopment.com/");
           return null;
         }}/>
         <Route path='/brochure' component={() => {
